@@ -5,7 +5,7 @@
   "description" : "Simple EasyRTC Server example which includes EasyRTC, Express, and Socket.io",
   
   "private"     : true,
-   "subomain"   : "codefish",
+   "subdomain"  : "codefish",
   "scripts": {
     "start"     : "node server.js"
   },
