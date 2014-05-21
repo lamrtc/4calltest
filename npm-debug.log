@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'foreman' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'foreman', null ]
+7 verbose cache add name=undefined spec="foreman" args=["foreman",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'foreman',
+8 verbose parsed url   path: 'foreman',
+8 verbose parsed url   href: 'foreman' }
+9 silly lockFile faf84889-foreman foreman
+10 verbose lock foreman C:\Users\lamhadwal\AppData\Roaming\npm-cache\faf84889-foreman.lock
+11 silly lockFile faf84889-foreman foreman
+12 silly lockFile faf84889-foreman foreman
+13 verbose addNamed [ 'foreman', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 055239d3-foreman foreman@
+16 verbose lock foreman@ C:\Users\lamhadwal\AppData\Roaming\npm-cache\055239d3-foreman.lock
+17 silly addNameRange { name: 'foreman', range: '*', hasData: false }
+18 verbose url raw foreman
+19 verbose url resolving [ 'https://registry.npmjs.org/', './foreman' ]
+20 verbose url resolved https://registry.npmjs.org/foreman
+21 info trying registry request attempt 1 at 11:49:10
+22 http GET https://registry.npmjs.org/foreman
+23 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+24 info trying registry request attempt 2 at 11:49:20
+25 http GET https://registry.npmjs.org/foreman
+26 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+27 info trying registry request attempt 3 at 11:50:20
+28 http GET https://registry.npmjs.org/foreman
+29 silly lockFile 055239d3-foreman foreman@
+30 silly lockFile 055239d3-foreman foreman@
+31 error network getaddrinfo ENOTFOUND
+31 error network This is most likely not a problem with npm itself
+31 error network and is related to network connectivity.
+31 error network In most cases you are behind a proxy or have bad network settings.
+31 error network
+31 error network If you are behind a proxy, please make sure that the
+31 error network 'proxy' config is set properly.  See: 'npm help config'
+32 error System Windows_NT 6.1.7601
+33 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "foreman"
+34 error cwd C:\Users\lamhadwal\easyrtc
+35 error node -v v0.10.26
+36 error npm -v 1.4.3
+37 error syscall getaddrinfo
+38 error code ENOTFOUND
+39 error errno ENOTFOUND
+40 verbose exit [ 1, true ]
