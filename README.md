@@ -5,6 +5,7 @@ This folder contains all the files you'll need to create a simple server with Ea
 
 Files and Folders:
 ------------------
+![Codeship Staus](https://codeship.io/projects/3a3304d0-c31d-0131-7785-5e29f13a1444/status)
 
  - package.json - Provides project information allowing npm to find and install required modules.
  - server.js - Server code.
