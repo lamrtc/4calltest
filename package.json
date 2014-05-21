@@ -4,7 +4,7 @@
   "author"      : "Priologic Software Inc. <info@priologic.com> (http://priologic.com/)",
   "description" : "Simple EasyRTC Server example which includes EasyRTC, Express, and Socket.io",
   
-  "private"     : true,
+
    "subdomain"  : "callamh",
   "scripts": {
     "start"     : "node server.js"
@@ -19,7 +19,7 @@
   "license"     : "BSD2",
 
   "engines": {
-    "node"      : ">=0.8"
+    "node"      : "0.10.x"
   }
   
 }
