@@ -1,11 +1,11 @@
 {
-  "name"        : "easyrtc_server_example",
+  "name"        : "callam",
   "version"     : "0.1.0",
   "author"      : "Priologic Software Inc. <info@priologic.com> (http://priologic.com/)",
   "description" : "Simple EasyRTC Server example which includes EasyRTC, Express, and Socket.io",
   
 
-   "subdomain"  : "callamh",
+   "subdomain"  : "callam",
   "scripts": {
     "start"     : "node server.js"
   },
